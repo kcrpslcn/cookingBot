@@ -106,8 +106,18 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# VSCode developer specific configurations may be found here
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
 # The telegram bot api token is found here
 token.json
 
 # Personal developer notes may be added here
 notes.txt
+
+# build specifix files (that can be generated) may be found here
+.build/*
