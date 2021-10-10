@@ -1,5 +1,5 @@
 import { Telegraf } from 'telegraf';
-import config from './config.json';
+import config from './token.json';
 
 export function startBot(): void {
   const token = config.token;
