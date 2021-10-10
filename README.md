@@ -2,7 +2,7 @@
 
 ## Get Started
 
-Add token to token.json:
+Add token to token.json in the `rootDir` which is the `./src` folder:
 ```
 {
     "token": "YOUR_TOKEN_HERE"
